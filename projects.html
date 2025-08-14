@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мои проекты</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .project-card {
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 20px;
+      text-align: left;
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+    .project-card:hover {
+      transform: scale(1.02);
+    }
+    .project-img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+    .project-btn {
+      display: inline-block;
+      padding: 10px 20px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+    .project-btn:hover {
+      background: rgba(255,255,255,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Мои проекты</h1>
+    <nav>
+      <a href="glav.html">Главная</a>
+      <a href="telegram.html">Мой Telegram</a>
+      <a href="school.html">Моё учебное заведение</a>
+    </nav>
+  </header>
+
+  <section>
+    <div class="project-card">
+      <img src="https://picsum.photos/800/400" alt="Проект" class="project-img">
+      <h3>Сайт для кофейни</h3>
+      <p>Красивый одностраничный сайт с меню, контактами и онлайн-заказом для небольшой кофейни.</p>
+      <a href="https://example.com" target="_blank" class="project-btn">Посмотреть</a>
+    </div>
+
+    <div class="project-card">
+      <img src="https://picsum.photos/800/401" alt="Проект" class="project-img">
+      <h3>Telegram бот-помощник</h3>
+      <p>Бот на Python, который отвечает на вопросы, отправляет погоду и помогает с расписанием.</p>
+      <a href="https://example.com" target="_blank" class="project-btn">Посмотреть</a>
+    </div>
+  </section>
+
+</body>
+</html>
